@@ -7,7 +7,7 @@ import Newscom from './components/Newscom';
 import Slipper from './components/Slipper';
 import { ReactDOM } from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 
@@ -28,7 +28,7 @@ export default class App extends Component {
 
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter>
         <Navbar />
         <LoadingBar
         color='#f11946'
@@ -51,7 +51,7 @@ export default class App extends Component {
               </Routes>   
 
           </div>
-        </BrowserRouter>
+        </HashRouter>
        
 
         
